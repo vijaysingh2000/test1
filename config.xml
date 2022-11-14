@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<!--<connectionstring>server=PHSERVERN\SQLEXPRESS01;database=test;Trusted_Connection=True;Integrated Security=True</connectionstring>-->
+	<connectionstring>server=(local)\vijaysqlinstance;database=test;Trusted_Connection=True;Integrated Security=True</connectionstring>
+	<staticlistfile>{configfilepath}data\staticlist.xml</staticlistfile>
+	<tasklistfile>{configfilepath}data\tasks.xml</tasklistfile>
+	<importdatafile>{configfilepath}data\data.txt</importdatafile>
+	<templatefolder>{configfilepath}html</templatefolder>
+	<datafolder>c:\applicationfilesfolder</datafolder>
+</config>
